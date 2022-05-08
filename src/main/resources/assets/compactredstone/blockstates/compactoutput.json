@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "compactredstone:block/compactoutput",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "compactredstone:block/compactoutput",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "compactredstone:block/compactoutput"
+    },
+    "facing=west": {
+      "model": "compactredstone:block/compactoutput",
+      "y": 90
+    }
+  }
+}

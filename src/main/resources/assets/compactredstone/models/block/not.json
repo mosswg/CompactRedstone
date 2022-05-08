@@ -1,0 +1,24 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "compactredstone:block/blank",
+    "all": "compactredstone:block/not",
+    "in": "compactredstone:block/in",
+    "out": "compactredstone:block/out",
+    "blank": "compactredstone:block/blank"
+  },
+  "elements": [
+    {
+      "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "down":  { "texture": "#all", "cullface": "down" },
+        "up":    { "texture": "#all", "cullface": "up" },
+        "south": { "texture": "#in", "cullface": "south" },
+        "north": { "texture": "#out", "cullface": "north" },
+        "west":  { "texture": "#blank", "cullface": "west" },
+        "east":  { "texture": "#blank", "cullface": "east" }
+      }
+    }
+  ]
+}

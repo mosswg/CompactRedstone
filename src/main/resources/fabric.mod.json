@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "compact_redstone",
+  "version": "${version}",
+  "name": "Compact Redstone",
+  "description": "Create compacted redstone",
+  "authors": [
+    "Moss Gallagher"
+  ],
+  "contact": {
+    "homepage": "https://mossx.net/"
+  },
+  "license": "The Unlicense",
+  "icon": "assets/compactredstone/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "net.mossx.compactredstone.CompactRedstone"
+      }
+    ]
+  },
+  "mixins": [
+    "compactredstone.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "fabric-language-kotlin": ">=1.7.4+kotlin.1.6.21",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "block.compactredstone.or": "Or",
+  "block.compactredstone.and": "And",
+  "block.compactredstone.not": "Not",
+  "block.compactredstone.compactinput": "Compact Input",
+  "block.compactredstone.compactoutput": "Compact Output",
+  "item.compactredstone.crwand": "Compact Redstone Wand"
+}
